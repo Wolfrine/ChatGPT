@@ -1,0 +1,4 @@
+*.zip
+Extracted/**
+!Extracted/
+!Extracted/conversations-*.json
