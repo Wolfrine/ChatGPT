@@ -1,6 +1,6 @@
 # Model Study
 
-This document summarizes the visual traits to preserve when generating new images from the uploaded reference set. The goal is a tasteful, non-explicit portrait and fashion-style study that celebrates natural beauty, face, figure, posture, and presence across different angles and activities.
+This document summarizes the visual traits to preserve when generating new images from the uploaded reference set. The goal is a tasteful, non-explicit portrait and fashion-style study that celebrates natural beauty, face, figure, posture, and presence across different angles, outfits, and activities.
 
 ## Core Impression
 
@@ -27,14 +27,37 @@ The overall look should stay grounded and real. Avoid overly glamourized, airbru
 
 ## Body And Figure
 
+These notes are based on visible external shape across clothing, posture, and camera angles. They should guide realistic generation, but they should not be treated as exact anatomical certainty. Clothing compression, fabric thickness, camera height, lens distortion, and posture all change how the body reads.
+
 - Compact, medium-curvy body structure.
-- Soft natural waist-to-hip curve.
-- Fuller hips and thighs are a key silhouette feature.
+- Short-to-average visual height impression with compact proportions.
+- Soft natural waist-to-hip curve, most visible in side and three-quarter back angles.
+- Fuller hips and thighs are a key silhouette feature, especially in fitted trousers or rear/side views.
 - Bust is natural and should be represented through clothing shape, not exposure.
 - Arms and shoulders are soft and proportionate.
-- Body should feel real and grounded, not stretched, slimmed, or exaggerated.
+- Body should feel real and grounded, not stretched, slimmed, over-hourglassed, or exaggerated.
+- Weight distribution reads as naturally lower-body-curvy rather than ultra-slim or athletic-cut.
+- Torso appears compact, with a soft waist transition rather than sharp fitness-model definition.
+- Hip and thigh volume should remain smooth and natural, not cartoonishly enlarged.
+- Shoulder width should stay modest and balanced against the fuller lower body.
+- Neck, jawline, and face should remain soft and youthful-adult in appearance, not highly sculpted or glamorized.
 
 The most flattering visual emphasis comes from silhouette, fabric fit, and posture: side profile, three-quarter back, seated side view, standing with crossed legs, leaning at a table, adjusting hair, or holding a laptop/book/mug.
+
+## Deeper Shape Inference For Generation
+
+When generating outfits that differ from the original references, use a consistent underlying body model:
+
+- Overall frame: compact, soft, feminine, naturally curvy, with realistic everyday proportions.
+- Upper body: soft shoulders, natural bust, compact ribcage, no exaggerated cleavage or glamour anatomy.
+- Midsection: gentle natural waist; avoid flat fitness-abdomen styling unless the outfit/activity requires mild definition.
+- Lower body: fuller hips and thighs, rounded but realistic silhouette, soft transition from waist to hip.
+- Legs: proportionate, soft, not extremely long or model-stretched; thighs should retain natural volume.
+- Back view: long wavy hair and hip silhouette are key identity/shape cues; keep the framing tasteful.
+- Side view: preserve natural posture and real body depth; avoid extreme arching or forced posing.
+- Hands/arms: small-to-medium hands, soft arms, simple jewelry; keep gestures natural.
+
+Do not simply copy the clothing outline from a reference image. Infer the body beneath as a real person with fabric-dependent changes: knitwear hugs softly, jeans compress and shape, trousers smooth the hip line, dresses drape, and swimwear reveals more silhouette while still staying non-explicit.
 
 ## Best Angles
 
@@ -47,7 +70,7 @@ The most flattering visual emphasis comes from silhouette, fabric fit, and postu
 
 ## Clothing Observations
 
-The references show that fitted but opaque clothing works best. The outfit should suggest shape through fabric and silhouette rather than exposure.
+The references show that fitted but opaque clothing works well, but future generations should not be limited to the first generated set. The outfit can vary widely as long as it remains adult, consensual, tasteful, and non-explicit. The image should suggest shape through fabric, pose, and silhouette rather than explicit exposure.
 
 Strong outfit directions:
 
@@ -58,8 +81,13 @@ Strong outfit directions:
 - Fitted tops with jeans or high-waist trousers.
 - Soft lounge-inspired but public-safe clothing.
 - Office-casual outfits that show natural figure through fit.
+- Poolside swimwear that is normal fashion/lifestyle swimwear, not fetishized or explicit.
+- Tasteful babydoll-style nightdress or slip-inspired sleepwear in a cozy bedroom, with covered chest and hips.
+- Belly-dancer-inspired or Athens/Mediterranean resort styling, using ornate fabric, jewelry, and movement while avoiding exposure-heavy framing.
+- Saree, lehenga, kurti, Indo-western dresses, resort dresses, and casual homewear.
+- Dance, pool, vacation, lounge, work-from-home, and mirror-adjacent dressing scenes.
 
-Avoid lingerie, sheer fabric, nudity, visible underwear, or poses that turn the image into explicit content.
+Avoid nudity, exposed intimate areas, transparent fabric, visible underwear, explicit lingerie focus, or poses that turn the image into explicit content.
 
 ## Setting Notes
 
@@ -77,8 +105,10 @@ Good settings:
 ## Visual Guardrails
 
 - Celebrate curves through silhouette, angle, and clothing fit.
-- Keep the mood intimate but wholesome.
+- Keep the mood intimate, tasteful, and human.
 - Maintain adult, realistic proportions.
 - Preserve identity cues: face, hair, skin tone, body structure, and calm presence.
-- Keep all outputs non-explicit: no nudity, no lingerie focus, no fetish framing, no transparent fabric.
-- Do not over-sexualize the face or pose.
+- Keep all outputs non-explicit: no nudity, no exposed intimate areas, no transparent fabric, no explicit sexual act or pose.
+- Sexy or teasing is allowed only through styling, confidence, dance, silhouette, fabric, and camera angle.
+- Do not over-sexualize the face or pose; preserve the innocent, natural expression.
+- Do not make the model look unrealistically slim, tall, hyper-fit, hyper-glamorous, or exaggeratedly voluptuous.
