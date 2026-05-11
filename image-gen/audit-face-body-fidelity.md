@@ -2,6 +2,12 @@
 
 Use this audit before saving generated images into `created/`. It is focused only on matching the uploaded model's face and body structure. Do not use it to judge outfit, setting, pose variety, or image style except where those choices distort identity.
 
+## Required Original Reference Pass
+
+Before generating or approving any image, inspect `Extracted/Uploaded/` directly and review at least 10 random original uploaded images. Review more originals when the result uses a new outfit category, bedroom/sensual styling, unusual camera angle, or skin-forward composition.
+
+Do not approve an image based only on this written audit, previous generated outputs, or memory of the model. Original uploaded images are the source of truth for face, hair, skin tone, body proportions, posture, and realistic fabric/body behavior.
+
 ## Reference Impression
 
 The uploaded references show a real adult South Asian woman with a compact, soft, naturally curvy build and candid phone-photo proportions. Her face reads as soft oval to gently round, with fuller cheeks, a softer jawline, natural eyes, and an everyday expression. The body reads shorter-to-average in visual height, with a compact torso, soft waist transition, fuller hips and thighs, and grounded posture.
@@ -44,12 +50,14 @@ The uploaded references show a real adult South Asian woman with a compact, soft
 - The body shape is mainly driven by fantasy/fashion proportions rather than candid phone-photo proportions.
 - The face is too sharp, too symmetrical, or too glamorized.
 - The lower body is either slimmed down or exaggerated beyond the natural uploaded silhouette.
+- Sensual styling, skin show, or bedroom posing changes the perceived identity, age, body proportions, or natural posture.
 
 ## Prompt Reminder
 
 When generating, explicitly say:
 
 ```text
+Before generating, inspect at least 10 random original uploaded images from Extracted/Uploaded/ and use those originals as the source of truth.
 Preserve a soft oval-to-round face with fuller cheeks, soft jawline, natural eyes, realistic skin texture, compact shorter-to-average body proportions, compact torso, soft waist transition, fuller hips and thighs, and grounded candid posture. Avoid model-height proportions, elongated legs, sharp jaw, airbrushed skin, exaggerated hourglass shape, or athletic dancer silhouette.
 ```
 

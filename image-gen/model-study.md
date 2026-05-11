@@ -10,7 +10,9 @@ The overall look should stay grounded and real. Avoid overly glamourized, airbru
 
 ## Source Weighting
 
-The uploaded folder contains a mix of candid originals, posed/event photos, screenshots, and a few generated or composite-looking images. For body and identity learning, weight the candid real photos highest. Use generated/composite-looking images only as loose style or outfit inspiration, not as the source of truth for body shape or facial structure.
+The uploaded folder contains a mix of candid originals, posed/event photos, screenshots, and a few generated or composite-looking images. Before any new generation, inspect `Extracted/Uploaded/` directly and review at least 10 random original uploaded images. Review more originals when the requested output changes outfit coverage, pose, camera angle, or lighting in a way that could distort identity or body shape.
+
+For body and identity learning, weight the candid real photos highest. Use generated/composite-looking images only as loose style or outfit inspiration, not as the source of truth for body shape or facial structure.
 
 When references disagree, prefer the repeated real-photo cues: natural face, long wavy hair, compact proportions, soft torso, fuller lower-body curve, and everyday posture.
 
@@ -94,7 +96,7 @@ More fabric behavior notes:
 
 ## Clothing Observations
 
-The references show that fitted but opaque clothing works well, but future generations should not be limited to the first generated set. The outfit can vary widely as long as it remains adult, consensual, tasteful, and non-explicit. The image should suggest shape through fabric, pose, and silhouette rather than explicit exposure.
+The references show that fitted clothing works well, but future generations should not be limited to the first generated set or to heavy coverage. The outfit can vary widely as long as it remains adult, consensual, tasteful, and not pornographic. The image may suggest shape through skin show, fabric, pose, and silhouette, while avoiding nudity, exposed intimate areas, explicit sexual acts, and body-part-only framing.
 
 Strong outfit directions:
 
@@ -106,12 +108,12 @@ Strong outfit directions:
 - Soft lounge-inspired but public-safe clothing.
 - Office-casual outfits that show natural figure through fit.
 - Poolside swimwear that is normal fashion/lifestyle swimwear, not fetishized or explicit.
-- Tasteful babydoll-style nightdress or slip-inspired sleepwear in a cozy bedroom, with covered chest and hips.
+- Tasteful babydoll-style nightdress, satin slip, short robe, or lingerie-inspired sleepwear in a cozy bedroom, with enough coverage to avoid nudity or exposed intimate areas.
 - Belly-dancer-inspired or Athens/Mediterranean resort styling, using ornate fabric, jewelry, and movement while avoiding exposure-heavy framing.
 - Saree, lehenga, kurti, Indo-western dresses, resort dresses, and casual homewear.
 - Dance, pool, vacation, lounge, work-from-home, and mirror-adjacent dressing scenes.
 
-Avoid nudity, exposed intimate areas, transparent fabric, visible underwear, explicit lingerie focus, or poses that turn the image into explicit content.
+Skin-forward styling is allowed when it fits an adult fashion, bedroom, resort, swimwear, dance, or lounge scene: bare shoulders, arms, legs, upper back, neckline, midriff, and soft sleepwear silhouettes are acceptable. Avoid nudity, exposed intimate areas, transparent fabric used to reveal intimate areas, explicit lingerie focus, pornographic framing, or poses that turn the image into explicit sexual content.
 
 ## Setting Notes
 
@@ -132,7 +134,7 @@ Good settings:
 - Keep the mood intimate, tasteful, and human.
 - Maintain adult, realistic proportions.
 - Preserve identity cues: face, hair, skin tone, body structure, and calm presence.
-- Keep all outputs non-explicit: no nudity, no exposed intimate areas, no transparent fabric, no explicit sexual act or pose.
+- Keep all outputs adult and sensual where appropriate, while avoiding nudity, exposed intimate areas, transparent fabric used for intimate reveal, explicit sexual acts, pornographic framing, or overtly explicit sexual poses.
 - Sexy or teasing is allowed only through styling, confidence, dance, silhouette, fabric, and camera angle.
 - Do not over-sexualize the face or pose; preserve the innocent, natural expression.
 - Do not make the model look unrealistically slim, tall, hyper-fit, hyper-glamorous, or exaggeratedly voluptuous.
