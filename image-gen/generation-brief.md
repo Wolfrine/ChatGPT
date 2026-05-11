@@ -2,6 +2,11 @@
 
 Use this brief as a compact operating guide for generating new images from the reference set. Keep it open-ended: the generator or agent should choose its own setting, outfit, activity, angle, and mood while preserving identity, realism, and safety boundaries.
 
+
+## Agent Coordination
+
+Before generating, start with `README.md`, then read `agent-ledger.md` and `creative-matrix.md`. Pick a concept that differs from recent saved outputs on at least three axes: environment, outfit, camera angle/crop, activity/gesture, and lighting/mood. After saving an accepted output into `created/`, update `agent-ledger.md` so future agents can avoid repeating the same concept.
+
 ## Goal
 
 Create realistic, tasteful, non-explicit images of the same adult model from the references. Preserve her natural face, long dark wavy hair, warm medium-brown skin tone, compact medium-curvy body structure, soft waist-to-hip curve, fuller hips and thighs, natural posture, and calm innocent expression.
