@@ -8,6 +8,12 @@ The model has a soft, natural, understated beauty. The strongest visual quality 
 
 The overall look should stay grounded and real. Avoid overly glamourized, airbrushed, or exaggerated outputs. Preserve normal human posture, real fabric behavior, natural hair texture, and small everyday imperfections.
 
+## Source Weighting
+
+The uploaded folder contains a mix of candid originals, posed/event photos, screenshots, and a few generated or composite-looking images. For body and identity learning, weight the candid real photos highest. Use generated/composite-looking images only as loose style or outfit inspiration, not as the source of truth for body shape or facial structure.
+
+When references disagree, prefer the repeated real-photo cues: natural face, long wavy hair, compact proportions, soft torso, fuller lower-body curve, and everyday posture.
+
 ## Face And Expression
 
 - Adult South Asian woman with warm medium-brown skin.
@@ -16,6 +22,8 @@ The overall look should stay grounded and real. Avoid overly glamourized, airbru
 - Natural eyes and brows, subtle makeup or no-makeup styling.
 - Expressions should be calm, thoughtful, shy, focused, or softly smiling.
 - Avoid exaggerated seductive faces, heavy glamour makeup, or dramatic model poses.
+- Smile is bright and youthful-adult when present, with a warm approachable quality; do not turn it into a glamorized model grin.
+- Side profile shows a soft forehead-to-nose-to-chin line and a gentle jaw, not a sharp sculpted profile.
 
 ## Hair
 
@@ -24,6 +32,8 @@ The overall look should stay grounded and real. Avoid overly glamourized, airbru
 - Hair should have volume, natural texture, and slight frizz or flyaways.
 - Back and side angles should show the length and wave pattern clearly.
 - Avoid over-smoothed salon hair or unrealistic glossy curls.
+- Hair often visually broadens the upper back/shoulder outline from rear angles; keep this natural instead of thinning it.
+- The clip/half-tied section usually sits high enough to reveal hair volume below it.
 
 ## Body And Figure
 
@@ -41,6 +51,9 @@ These notes are based on visible external shape across clothing, posture, and ca
 - Hip and thigh volume should remain smooth and natural, not cartoonishly enlarged.
 - Shoulder width should stay modest and balanced against the fuller lower body.
 - Neck, jawline, and face should remain soft and youthful-adult in appearance, not highly sculpted or glamorized.
+- Standing side views show natural body depth through bust, midsection, and hip; avoid flattening the torso into a thin side silhouette.
+- Seated views compress the waist and lap naturally; preserve real sitting folds and thigh volume rather than forcing a posed fashion shape.
+- Rear and three-quarter rear views show the lower-body curve most strongly, but the output should remain tasteful and full-scene rather than body-part focused.
 
 The most flattering visual emphasis comes from silhouette, fabric fit, and posture: side profile, three-quarter back, seated side view, standing with crossed legs, leaning at a table, adjusting hair, or holding a laptop/book/mug.
 
@@ -59,6 +72,14 @@ When generating outfits that differ from the original references, use a consiste
 
 Do not simply copy the clothing outline from a reference image. Infer the body beneath as a real person with fabric-dependent changes: knitwear hugs softly, jeans compress and shape, trousers smooth the hip line, dresses drape, and swimwear reveals more silhouette while still staying non-explicit.
 
+More fabric behavior notes:
+
+- High-waist jeans define the waist and hip curve while compressing the upper hip.
+- Loose trousers smooth the outer hip and thigh line, making the body look less sharply defined but still lower-body-curvy.
+- Ribbed or fitted tops reveal soft torso depth and bust shape without needing exposure.
+- Stiffer office fabrics can create folds at the waist, back, and side; keep these realistic.
+- Synthetic generated references may over-smooth legs, skin, or body symmetry; do not copy that over-polished look into real-style outputs.
+
 ## Best Angles
 
 - Three-quarter front: shows face, hair, waist, and outfit shape together.
@@ -67,6 +88,9 @@ Do not simply copy the clothing outline from a reference image. Infer the body b
 - Seated side angle: works well for casual activities and curve study.
 - Full-body vertical framing: best for outfit and figure consistency.
 - Slight candid phone-camera angles can work if they remain tasteful and realistic.
+- Low desk-level angles are common in the real references and can make the lower body appear more prominent; use carefully and keep the image balanced.
+- Doorway and walking-away angles are useful for studying rear silhouette, hair fall, and posture, but should not become voyeuristic.
+- Laptop/table foreground clutter adds realism, but should not hide the full figure when body-shape consistency is the goal.
 
 ## Clothing Observations
 
