@@ -4,9 +4,26 @@ set -euo pipefail
 CONFIG_DIR="$HOME/.codex"
 CONFIG_FILE="$CONFIG_DIR/config.toml"
 
-mkdir -p "$CONFIG_DIR"
+find_codex_cli() {
+  if command -v codex >/dev/null 2>&1; then
+    command -v codex
+    return 0
+  fi
 
-python3 - "$CONFIG_FILE" <<'PY'
+  if [ -x /opt/codex/bin/codex ]; then
+    printf '%s\n' /opt/codex/bin/codex
+    return 0
+  fi
+
+  return 1
+}
+
+if CODEX_CLI="$(find_codex_cli)"; then
+  "$CODEX_CLI" features enable image_generation
+else
+  mkdir -p "$CONFIG_DIR"
+
+  python3 - "$CONFIG_FILE" <<'PY'
 from pathlib import Path
 import sys
 
@@ -53,13 +70,11 @@ else:
 
 config_path.write_text(text)
 PY
+fi
 
 cat <<EOF_CONFIG
-Codex image generation feature enabled in $CONFIG_FILE:
+Codex image generation feature enabled.
 
-[features]
-image_generation = true
-
-Restart the Codex session after running this script so the built-in image_gen
-tool is registered for the next session.
+If this session still lacks the built-in image_gen tool, restart the Codex
+session so tools can be registered from the updated feature config.
 EOF_CONFIG

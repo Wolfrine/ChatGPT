@@ -23,12 +23,14 @@ follow its linked workflow.
   Pillow/canvas-style images as final `created/` outputs unless the user
   explicitly requests that style.
 - If the built-in image-generation tool is unavailable in the current session,
-  first run `bash image-gen/enable-codex-image-generation.sh`, then restart the
-  Codex session so the tool is registered. Tools are fixed at session startup,
-  so editing `~/.codex/config.toml` cannot add `image_gen` to an already-running
-  session. If restart is not possible and the user has not explicitly requested
-  CLI/API fallback, stop before saving a final image and report the tooling
-  limitation instead of fabricating a substitute.
+  first run `bash image-gen/enable-codex-image-generation.sh`. The helper uses
+  `codex features enable image_generation` when a Codex CLI is available, or
+  edits `~/.codex/config.toml` directly as a fallback. Then restart the Codex
+  session so the tool is registered. Tools are fixed at session startup, so
+  editing config cannot add `image_gen` to an already-running session. If
+  restart is not possible and the user has not explicitly requested CLI/API
+  fallback, stop before saving a final image and report the tooling limitation
+  instead of fabricating a substitute.
 
 ## GitHub Workflow
 
