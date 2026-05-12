@@ -78,7 +78,6 @@ Add new accepted outputs below this line.
 
 | Time UTC | Agent | File | Environment | Outfit | Angle/Crop | Activity/Gesture | Lighting/Mood | Reference Emphasis | Audit/Result | Repeat Guidance |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-05-12 08:24 | codex | `created/20260512-082404-870-codex-rainy-greenhouse-evening.png` | rainy greenhouse/conservatory | teal satin wrap midi dress | full-body front, environmental wide | standing among plants, quiet smile | blue-hour rain with warm lamp glow | sampled 10 originals for hair, face, compact curvy silhouette, warm skin tone | accepted tasteful non-explicit stylized raster; no intimate exposure | Greenhouse rain/teal wrap dress now covered; avoid repeating conservatory plants plus blue-hour rain. |
 
 ## Rejected Or Avoid List
 

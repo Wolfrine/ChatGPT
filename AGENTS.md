@@ -4,6 +4,12 @@ This repo is an agentive image-generation workspace. Keep operational instructio
 
 Before generating or saving images, read `image-gen/README.md` first and follow its linked workflow.
 
+## Image Generation Tooling
+
+- Final accepted raster images should be generated with the project-approved OpenAI/ChatGPT image-generation workflow, using GPT Image 2 / `gpt-image-2` when available.
+- Do not accept locally scripted drawings, placeholder renders, or hand-coded Pillow/canvas-style images as final `created/` outputs unless the user explicitly requests that style.
+- If OpenAI image-generation credentials or tooling are unavailable, stop before saving a final image and report the limitation instead of fabricating a substitute.
+
 ## GitHub Workflow
 
 - The canonical GitHub remote is `https://github.com/Wolfrine/ChatGPT.git`; if `origin` is missing, add it with that URL.
